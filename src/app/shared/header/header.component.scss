@@ -18,8 +18,9 @@ nav{
   margin-left: 20px;
   //font-family: 'Monsieur La Doulaise', cursive!important;
   font-family: 'Pinyon Script', cursive!important;
-  color:  rgb(180, 181, 181);
+  color:  rgb(255, 255, 255);
   vertical-align: sub;
+  //font-weight: bold;
 }
 
 a{
@@ -31,11 +32,11 @@ a{
 fa-icon{
   font-size: 21px;
   margin-right: 5px;
-  color: rgb(34, 166, 34);
+  color: #2d2621!important;
 }
 
 .bg-dark{
-  background-color: #383839!important;
+  background-color: #6b584c!important;
 }
 
 .navbar-brand{
@@ -55,13 +56,17 @@ button.btn.btn-outline-success{
   //top: 4px;
   top:3px;
   height: 40px;
-  color: rgb(34, 166, 34);
+  border-color:white ;
+
+  .icon{
+    color: rgb(255, 255, 255)!important;
   }
+}
+
   button.btn.btn-outline-success:hover{
-    color: white;
-    background-color:   rgb(53, 134, 53);
+    background-color:   rgb(255, 255, 255);
     .icon{
-      color: white;
+      color: #2d2621!important;
     }
   }
 
@@ -79,5 +84,6 @@ a{
   font-family: 'Emilys Candy', cursive;
       font-size: 17px;
     //font-weight: bold!important;
-    color:white;
+    color:rgb(255, 255, 255);
+    font-weight: lighter!important;
 }

@@ -11,6 +11,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { CarouselTextComponent } from './components/carousel-text/carousel-text.component';
 import { DressCardComponent } from './shared/dress-card/dress-card.component';
+import { DetailComponent } from './components/dresses/detail/detail.component';
+import { DressesListComponent } from './components/dresses/dresses-list/dresses-list.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { DressCardComponent } from './shared/dress-card/dress-card.component';
     HeaderComponent,
     FooterComponent,
     CarouselTextComponent,
-    DressCardComponent
+    DressCardComponent,
+    DetailComponent,
+    DressesListComponent
     ],
   imports: [
     BrowserModule,

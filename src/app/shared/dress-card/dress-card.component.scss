@@ -1,49 +1,76 @@
-.container-cards{
-  display:block;
+.container-cards {
+  display: block;
   //float:left;
   margin-bottom: 20px;
   height: 100vh;
 
-  .card{
-    width:23%;
+  .card {
+    width: 23%;
     margin-left: 1.5%;
-    float:left;
+    float: left;
     margin-bottom: 20px;
-    height:390px;
+    // height:390px;
   }
-  .card-title{
+
+  .card-title {
     font-size: bold;
     font-size: 16px;
+    //color: #6b584c !important;
     color: #8e210b;
   }
 
-.card-image{
-  height: 200px;
-  //background-image: url(https://www.kikkoman.eu/fileadmin/user_upload/03-recipes/WEB_Spagetti_med_kjoettsaus.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  .card-image {
+    height: 200px;
+    //background-image: url(https://www.kikkoman.eu/fileadmin/user_upload/03-recipes/WEB_Spagetti_med_kjoettsaus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+  .card-text {
+    font-size: 10px;
+    text-align: justify; //mette il testo scritto a blocchetto
+    margin-bottom: 20px;
+    float: left;
+  }
 
 }
 
-.card-text{
-  font-size:10px;
-  text-align: justify; //mette il testo scritto a blocchetto
-  margin-bottom: 20px;
-  float: left;
-}
-}
 a.btn.btn-primary {
-  background-color: #3c7e3c;
-  color: #e5e8eb;
+  background-color: #6b584c !important;
+
+  color: rgb(255, 255, 255);
   font-weight: bold;
-  border-radius: 48%;
+  border-radius: 10%;
+  border: none;
+
+}
+
+div#div-button-center {
+  padding-left: 33%;
+  padding-top: 11%;
 }
 
 //  font-family: 'Monsieur La Doulaise', cursive;
 
-/*
- font-family: 'Monsieur La Doulaise', cursive;
-  font-size: 83px;
-  padding-left: 40%;
-*/
+p#paragrafo-dress-card {
+  font-family: 'Cormorant Upright', serif !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home {
+  padding-left: 50%;
+  color: #9b5547;
+  float: left;
+  padding: 5px;
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+
+.home:hover{
+      color: #c78a8a;
+}

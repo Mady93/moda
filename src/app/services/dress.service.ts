@@ -10,8 +10,14 @@ export class DressService {
 
   constructor() { }
 
-  getRecipes(): Observable <Dress[]>{
+  getDresses(): Observable <Dress[]>{
     return of (DRESSES);
       }
+      // ora devo creare il componente dresses
+
+      //### ritorna il dettaglio in base al id -- evento
+ getDress(id:number):Observable<Dress>{
+  const dress = DRESSES.find(dress => dress._id === id);
+  return of(dress);
     }
-     // ora devo creare il componente dresses
+  }

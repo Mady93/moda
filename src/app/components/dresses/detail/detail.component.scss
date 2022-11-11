@@ -1,0 +1,60 @@
+.container-fluid{
+  display:block;
+  //float:left;
+  margin-bottom: 20px;
+  height: 110vh;
+
+  .container-image{
+    //width:23%;
+    //margin-left: 1.5%;
+    float:left;
+    margin-bottom: 20px;
+  }
+  .card-title{
+    font-size: 23px;;
+    color: #9b5547;
+    font-weight: bold;
+    //padding: 10px;
+    padding: 5px;
+    margin-top: 20px;
+  }
+
+.card-image{
+  height: 330px;
+  //background-image: url(https://www.kikkoman.eu/fileadmin/user_upload/03-recipes/WEB_Spagetti_med_kjoettsaus.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 0px;
+  margin-left: -24px;
+  margin-right: -24px;
+}
+.card-text{
+  padding: 10px;
+}
+
+}
+.price-span{
+  font-weight: bold;
+  padding: 10px;
+}
+.price-p{
+  padding-left: 10px;
+}
+
+.date-p{
+  padding: 10px;
+}
+
+.published-p{
+  font-weight: bold;
+}
+.abbigliamento{
+  padding-left: 50%;
+  color:#9b5547;
+}
+
+.abbigliamento:hover{
+  color: #c78a8a;
+}
+

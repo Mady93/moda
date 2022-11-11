@@ -5,8 +5,11 @@
     </div>
     <div class="card-body" >
       <h5 class="card-title">{{dress.title}}</h5>
-      <p class="card-text">{{dress.description}}</p>
-      <a href="#" class="btn btn-primary">Visualizza</a>
+      <p id="paragrafo-dress-card" class="card-text">{{dress.description}}</p>
+      <div id="div-button-center">
+        <a class="btn btn-primary" routerLink="dettaglio/{{dress._id}}">Visualizza</a></div>
     </div>
   </div>
+  <a class="home" href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">
+    Home</a>
 </div>

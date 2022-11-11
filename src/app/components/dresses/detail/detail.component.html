@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <div class="container-image">
+    <div class="card-image" [ngStyle]="{'background-image': 'url(' + prodotto.image + ')'}">
+    </div>
+    <div class="container-testo">
+      <h5 class="card-title">{{prodotto.title}}</h5>
+      <p class="card-text">{{prodotto.description}}</p>
+    </div>
+    <br>
+    <div class="container-prezzo"><span class="price-span">Prezzo:</span>
+      <p class="price-p">{{prodotto.price}}</p>
+    </div>
+    <div class="container-data">
+      <p class="date-p"><span class="published-p">Pubblicato:</span> {{prodotto.date}}</p>
+    </div>
+  </div>
+  <a class="abbigliamento" href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">
+    Abbigliamento</a>
+</div>

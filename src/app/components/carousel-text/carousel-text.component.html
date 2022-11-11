@@ -1,0 +1,7 @@
+<ngb-carousel class="carouselProva" *ngIf="textArr.length>=1"[interval]="2000" id="carousel-text">
+  <ng-template  ngbSlide *ngFor="let text of textArr"; let i = "index">
+    <div class="picsum-img-wrapper">
+      <p>{{text.txt}}</p>
+    </div>
+  </ng-template>
+  </ngb-carousel>

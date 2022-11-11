@@ -1,4 +1,15 @@
- <ngb-carousel *ngIf="images" [interval]="5000">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <button class="d-block w-100" [style]="'background-color: rgb(126, 212, 126)'">#Women's clothing#Women's shoes#Fashion♠︎ʕ•́ᴥ•̀ʔっ​</button>
+    </div>
+  </div>
+</div>
+
+ <!--###############################################################################-->
+
+
+ <ngb-carousel *ngIf="images" [interval]="5000" id="carousel-images">
   <ng-template ngbSlide *ngFor="let image of images; let i=index">
 
     <div class="picsum-img-wrapper">
@@ -13,13 +24,17 @@
   </ng-template>
 </ngb-carousel>
 
-
-
-
 <ng-template #noSlide>
   <div class="percorso2">
     <img [src]="percorso + images[0].id +'.jpg'" [alt]="" images[0].label />
   </div>
 </ng-template>
 
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <button class="d-block w-100" [style]="'background-color: rgb(126, 212, 126)'">♛ www.digital-fashion.style.it ♛</button>
+    </div>
+  </div>
+</div>
 

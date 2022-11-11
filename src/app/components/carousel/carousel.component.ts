@@ -23,11 +23,10 @@ export class CarouselComponent implements OnInit {
 
 percorso ='../../../assets/img/moda-';
 
-
-
   constructor() { }
 
   ngOnInit(): void {
   }
 
 }
+

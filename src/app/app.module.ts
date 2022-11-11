@@ -6,13 +6,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { DressesComponent } from './components/dresses/dresses.component';
+import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { CarouselTextComponent } from './components/carousel-text/carousel-text.component';
+import { DressCardComponent } from './shared/dress-card/dress-card.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselComponent,
-    DressesComponent
+    DressesComponent,
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    CarouselTextComponent,
+    DressCardComponent
     ],
   imports: [
     BrowserModule,

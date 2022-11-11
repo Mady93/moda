@@ -1,0 +1,12 @@
+<div class="container-cards">
+  <div class="card" *ngFor="let dress of dresses">
+    <div class="card-image" [ngStyle]="{'background-image': 'url(' + dress.image + ')'}">
+
+    </div>
+    <div class="card-body" >
+      <h5 class="card-title">{{dress.title}}</h5>
+      <p class="card-text">{{dress.description}}</p>
+      <a href="#" class="btn btn-primary">Visualizza</a>
+    </div>
+  </div>
+</div>

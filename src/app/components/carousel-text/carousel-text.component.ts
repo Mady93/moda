@@ -13,7 +13,7 @@ export class CarouselTextComponent implements OnInit {
     },
     {
     id: 2,
-    txt: 'Spring Summer Winter Collection'
+    txt: 'Spring Summer Winter'
     }
   ];
 

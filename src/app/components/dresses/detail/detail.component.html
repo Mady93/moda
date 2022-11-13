@@ -1,6 +1,10 @@
 <div class="container-fluid">
   <div class="container-image">
-    <div class="card-image" [ngStyle]="{'background-image': 'url(' + prodotto.image + ')'}">
+    <!-- <div class="card-image" [ngStyle]="{'background-image': 'url(' + prodotto.image + ')'}"> -->
+      <div class="card-image" [ngStyle]="{'background-image': 'url(' + prodotto.image + ')'}">
+        <img src="{{prodotto.images[0]}}" id="img1">
+        <img src="{{prodotto.images[1]}}" id="img2">
+        <img src="{{prodotto.images[2]}}" id="img3">
     </div>
     <div class="container-testo">
       <h5 class="card-title">{{prodotto.title}}</h5>

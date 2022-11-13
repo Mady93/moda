@@ -3,6 +3,8 @@
   //float:left;
   margin-bottom: 20px;
   height: 110vh;
+  //background-image: url('https://t3.ftcdn.net/jpg/04/83/93/30/360_F_483933086_N0PLiXa8PMoUxoPTFVeHE3WBf5Ur5aYp.jpg ');
+
 
   .container-image{
     //width:23%;
@@ -11,15 +13,15 @@
     margin-bottom: 20px;
   }
   .card-title{
-    font-size: 23px;;
-    color: #9b5547;
+    font-size: 22px;;
+    color: #8e210b;;
     font-weight: bold;
     //padding: 10px;
     padding: 5px;
     margin-top: 20px;
   }
 
-.card-image{
+/*.card-image{
   height: 330px;
   //background-image: url(https://www.kikkoman.eu/fileadmin/user_upload/03-recipes/WEB_Spagetti_med_kjoettsaus.jpg);
   background-size: cover;
@@ -28,7 +30,18 @@
   margin-top: 0px;
   margin-left: -24px;
   margin-right: -24px;
+}*/
+
+.card-image {
+    margin-left: -24px;
+    height: 330px;
+    margin-left: -24px;
+    width: 53%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 .card-text{
   padding: 10px;
 }
@@ -51,10 +64,33 @@
 }
 .abbigliamento{
   padding-left: 50%;
-  color:#9b5547;
+  color:#8e210b;
 }
 
 .abbigliamento:hover{
   color: #c78a8a;
+}
+
+#img1{
+  width: 91%;
+  height: 47%;
+  background-position: center;
+  margin-left: 102%;
+}
+
+#img2{
+    width: 45%;
+    margin-left: 102%;
+    height: 50%;
+    margin-top: 9px;
+    object-position: 0px 3px;
+}
+
+#img3{
+  width: 44%;
+  height: 165px;
+  display: block;
+  margin-left: 149%;
+  margin-top: -162px;
 }
 

@@ -25,8 +25,8 @@ export class DetailComponent implements OnInit {
   onGetDress(): void {
     //#### prendo l'id della routedeActived tramite snapshotParam, lo converto in numero
     //_id deve combacciare con path app-routing.module.ts
-    const id = Number(this.activatedRoute.snapshot.paramMap.get('_id'));
-    this.dressService.getDress(id).subscribe({
+    const ID = Number(this.activatedRoute.snapshot.paramMap.get('_id'));
+    this.dressService.getDress(ID).subscribe({
       next: (res) => {
         this.prodotto = res;
         console.log(this.prodotto);
@@ -41,12 +41,12 @@ export class DetailComponent implements OnInit {
     // recipeService è incluso nell'activatedRoute
     this.activatedRoute.params.subscribe((urlParams)=>{
       //uso params quando devo reccuperare piu parametri
-      const id = urlParams['_id'];
-      const idN = Number(id);
+      const ID = urlParams['_id'];
+      const idN = Number(ID);
       if(idN){
       this.dressService.getDress(idN).subscribe(res => this.prodotto = res);
   }
-})
+});
   }
 
 }

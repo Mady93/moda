@@ -1,23 +1,69 @@
 <div class="container-fluid">
   <div class="container-image">
-    <!-- <div class="card-image" [ngStyle]="{'background-image': 'url(' + prodotto.image + ')'}"> -->
-      <div class="card-image" [ngStyle]="{'background-image': 'url(' + prodotto.image + ')'}">
-        <img src="{{prodotto.images[0]}}" id="img1">
-        <img src="{{prodotto.images[1]}}" id="img2">
-        <img src="{{prodotto.images[2]}}" id="img3">
+      <div class="card-image" [ngStyle]="{'background-image': 'url(' + vestito.image + ')'}">
+        <img src="{{vestito.images[0]}}" id="img1">
+        <img src="{{vestito.images[1]}}" id="img2">
+        <img src="{{vestito.images[2]}}" id="img3">
     </div>
     <div class="container-testo">
-      <h5 class="card-title">{{prodotto.title}}</h5>
-      <p class="card-text">{{prodotto.description}}</p>
+      <h5 class="card-title">{{vestito.title}}</h5>
+      <p class="card-text">{{vestito.description}}</p>
     </div>
     <br>
     <div class="container-prezzo"><span class="price-span">Prezzo:</span>
-      <p class="price-p">{{prodotto.price}}</p>
+      <p class="price-p">{{vestito.price}}</p>
     </div>
+
+    <div class="difficolta"><span class="difficulty">Qualità:</span>
+      <div class="row">
+       <!-- <p class="stelle">{{ricetta.difficulty}}</p> -->
+        <img [src]="percorsoQualita+vestito.qualita +'.png'" class="difficult" alt="qualità">
+      </div>
+
     <div class="container-data">
-      <p class="date-p"><span class="published-p">Pubblicato:</span> {{prodotto.date}}</p>
+      <p class="date-p"><span class="published-p">Pubblicato:</span> {{vestito.date}}</p>
     </div>
   </div>
   <a class="abbigliamento" href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">
     Abbigliamento</a>
 </div>
+
+
+<!-- <div class="container text-center">
+  <div class="row">
+
+    <div class="col-6 col-sm-6 card-image" [ngStyle]="{'background-image': 'url(' + prodotto.image + ')'}">
+    </div>
+
+    <div class="col-6 col-sm-6">
+      <img src="{{prodotto.images[0]}}" id="img1">
+    </div>
+
+    <div class="col-sm-6">
+
+      <div class="row">
+
+        <div class="col-6 col-sm-6">
+          <img src="{{prodotto.images[1]}}" id="img2">
+          <img src="{{prodotto.images[2]}}" id="img3">
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!--width: 132%;
+    height: 158px;
+    /* display: block; */
+    margin-left: 111%;
+    1%: ;
+    */: ;
+    margin-top: -292px;
+    /* margin-left: -24px; */
+    /* height: 330px; */
+    /* margin-left: -24px; */
+    /* width: 53%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -107%;-->

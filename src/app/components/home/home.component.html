@@ -1,7 +1,11 @@
-<app-carousel-text></app-carousel-text>
+<div class="d-flex justify-content-center mt-5">
+  <app-carousel-text></app-carousel-text>
+</div>
+
 <section id="main-container">
   <div class="container-title">
-      <p class="txt1" >Spring-Summer 2022</p>
+      <p class="txt1" [ngClass]="evidenziato ?'testo-evidenziato' :'' " (click)="onEvidenziazione()" style="cursor: pointer">Spring-Summer 2022</p>
+    <p class="testo" [ngStyle]="{'background-color': evidenziato === true ? 'gold': 'white'}">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
   </div>
 </section>
 
@@ -12,3 +16,10 @@
       <p class="txt2">Fall-Winter Collection 2022/2023</p>
     </div>
   </section>
+
+
+  <!-- Padre di dress-card.component.ts -->
+  <div class="container-fluid">
+    <h2 class="h2">Nuovi arrivi</h2>
+    <app-dress-card [pag] ="'home'"></app-dress-card>
+  </div>

@@ -61,10 +61,10 @@ p#paragrafo-dress-card {
 }
 
 .home {
-  padding-left: 50%;
+  padding-left: 38%;
   color: #8e210b;
   float: left;
-  padding: 5px;
+  //padding: 5px;
   width: 40%;
   text-align: center;
   margin-left: 10%;
@@ -73,4 +73,10 @@ p#paragrafo-dress-card {
 
 .home:hover{
       color: #c78a8a;
+}
+
+div#div-button-center {
+  padding-left: 33%;
+  /* padding: 35%; */
+  padding-top: 11%;
 }

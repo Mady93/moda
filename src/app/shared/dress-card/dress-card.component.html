@@ -1,15 +1,17 @@
 <div class="container-cards">
-  <div class="card" *ngFor="let dress of dresses">
-    <div class="card-image" [ngStyle]="{'background-image': 'url(' + dress.image + ')'}">
-
+  <div class="card" *ngFor="let dress of dressList">
+    <div class="card-image" [ngStyle]="{'background-image': 'url(' + dress.image + ')'}" (click)="inviaTitolo(dress.title)">
     </div>
     <div class="card-body" >
       <h5 class="card-title">{{dress.title}}</h5>
-      <p id="paragrafo-dress-card" class="card-text">{{dress.description}}</p>
+      <p id="paragrafo-dress-card" class="card-text">{{dress.description  | slice: 0:250}}...}}</p>
       <div id="div-button-center">
-        <a class="btn btn-primary" routerLink="dettaglio/{{dress._id}}">Visualizza</a></div>
+        <a class="btn btn-primary" routerLink="/abbigliamento/dettaglio/{{dress.title}}/{{dress._id}}">Visualizza</a>
     </div>
   </div>
+</div>
+
+<div>
   <a class="home" href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">
     Home</a>
 </div>

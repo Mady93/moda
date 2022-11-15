@@ -7,13 +7,28 @@ body {
  //font-family: 'Emilys Candy', cursive;
  font-family: 'Cormorant Upright', serif;
 font-size: 21px;
+background-color: #d5cac3;
+
 }
 
-footer {
+/*footer {
   height: 100px;
   width: 100%;
   background-color:  #6b584c!important;
   border-radius: 50px 50px 0 0;
+}*/
+
+footer {
+  height: 60px;
+    width: 100%;
+    border-radius: 50px 50px 0 0;
+    background-image: linear-gradient(#6b584c, #91845d, #6b584c);
+    bottom: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 #main-container {
@@ -64,5 +79,18 @@ footer {
   }
 }
 
+.gold {
+  //max-width: 250px;
+ // padding: 1rem;
+ // color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-image:
+    linear-gradient(
+      to top,
+      rgb(202, 183, 15),
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
 
 

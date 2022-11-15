@@ -5,7 +5,7 @@
   margin-bottom: 20px;
 }
 
-button.d-block.w-100{
+/*button.d-block.w-100{
   font-size: 22px!important;
   height: 35px!important;
   //border-color: rgb(27 177 27);
@@ -13,7 +13,15 @@ button.d-block.w-100{
     background-color: #6b584c!important;
     //font-weight: bold!important;
     color:white;
-  }
+  }*/
 
-
-
+  button.d-block.w-100 {
+    font-size: 22px !important;
+    height: 35px !important;
+    /* border: none !important; */
+    /* background-color: #6b584c !important; */
+    /* color: white; */
+    /* background-image: linear-gradient(to right,#6b584c, #7a672e,#6b584c ); */
+    border-top: 2px solid #707065;
+    background-image: linear-gradient(#6b584c, #c7ac5c, #6b584c);
+}

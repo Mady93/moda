@@ -13,6 +13,7 @@ import { CarouselTextComponent } from './components/carousel-text/carousel-text.
 import { DressCardComponent } from './shared/dress-card/dress-card.component';
 import { DetailComponent } from './components/dresses/detail/detail.component';
 import { DressesListComponent } from './components/dresses/dresses-list/dresses-list.component';
+import { CipComponent } from './shared/cip/cip.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { DressesListComponent } from './components/dresses/dresses-list/dresses-
     CarouselTextComponent,
     DressCardComponent,
     DetailComponent,
-    DressesListComponent
+    DressesListComponent,
+    CipComponent
     ],
   imports: [
     BrowserModule,

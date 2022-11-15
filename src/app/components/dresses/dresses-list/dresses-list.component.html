@@ -1,2 +1,13 @@
-<p class="abbigliamento-p">Magazzino</p>
-<app-dress-card [dresses] ='abbigliamento'></app-dress-card>
+<!-- <p class="abbigliamento-p">Magazzino</p> -->
+<!--Per immettere recipes deve essere input-->
+  <div class="d-flex justify-content-start" *ngIf="categoryNameList">
+  <div *ngFor="let category of categoryNameList">
+    <app-cip [cat]="category" (click)="orderBy(category)"></app-cip>
+  </div>
+</div>
+
+  <div class="strong-div">
+  <p *ngIf="titoloRicevuto" class="strong"> Hai cliccato l'abbigliamento: <strong>{{titoloRicevuto}}</strong></p>
+ </div>
+
+<app-dress-card [OrderByCategory]="OrderByCategory" [pag] ="'ricette'" (messaggio)="riceviTitolo($event)"></app-dress-card>

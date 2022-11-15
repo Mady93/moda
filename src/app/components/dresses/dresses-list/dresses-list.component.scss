@@ -1,16 +1,15 @@
-.abbigliamento-p{
-    //padding: 5px;
-    width: 40%;
-    text-align: center;
-    margin-left: 30%;
-    margin-top: 20px;
-    //font-weight: bold;
-    //font-size: 30px;
-    //font-family: 'Pinyon Script', cursive;
-    //font-family: 'Emilys Candy', cursive;
-    font-family: 'Cormorant Upright', serif !important;
-    background-color: #6b584c!important;
-    //border-radius: 50%;
-    color:white;
+
+
+.strong{
+  margin-left: 39%;
+  padding: 1%;
+}
+
+.strong-div{
+    height: 60px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
 }
 

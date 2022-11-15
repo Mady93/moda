@@ -9,5 +9,6 @@ export interface Dress{
   color:string;
   size: string;
   price: string;
+  qualita:number;
   published: boolean;
   }

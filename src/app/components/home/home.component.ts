@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  evidenziato = false;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onEvidenziazione(){
+    this.evidenziato = !this.evidenziato;
+  }
 }

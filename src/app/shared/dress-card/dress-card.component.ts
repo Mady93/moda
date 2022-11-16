@@ -26,6 +26,7 @@ export class DressCardComponent implements OnInit , OnChanges{
 
   @Output() messaggio = new EventEmitter();  // variabile output che invia un nuovo evento
   @Input() pag: string;
+
   dressList: Dress[] = [];
   vestiti: Dress[] = [];
 
@@ -36,7 +37,7 @@ this.dressList = this.vestiti.filter(res=> res.category===this.OrderByCategory);
 }
   }
 
-  ngOnInit(): void {  // padre-card
+  ngOnInit(): void {  // figlio di dress-list
     this.dressService.getDresses().subscribe({
       next:(res)=>{
         this.vestiti = res;

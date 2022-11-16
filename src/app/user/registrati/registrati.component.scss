@@ -1,0 +1,100 @@
+.div {
+  border: 1px solid rgb(219, 188, 188);
+}
+
+.col-7 {
+  width: 60%;
+  float: left;
+}
+
+.col-5 {
+  width: 40%;
+  float: left;
+}
+
+// .img-fluid {
+  // width: 100%;
+  //   height: 103.9%;
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  //   background-position: center;
+  //   margin-left: 14%;
+  //   border-radius: 0 3% 3% 0;
+  //   margin-top: -1px;
+// }
+
+.image{
+    background-image: url(../../../assets/img/registrazione.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0 3% 3% 0;
+    margin-top: -1px;
+    margin-left: 10%;
+    //margin-top: -1%;
+    width: 50%;
+    //height: -1%;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+input.ng-dirty {
+  border: 1px solid yellow;
+}
+
+input.ng-valid {
+  border: 1px solid green;
+}
+
+.correct {
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+.div-check {
+  padding-right: 95%;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+}
+
+.bottoneSubmit {
+  margin-left: 32%;
+  width: 35%;
+  border-radius: 50px;
+}
+
+p {
+  color: #d52907 !important;
+  font-family: emoji;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.lab{
+  margin-top: -21px;
+    margin-left: 20px;
+}
+
+.accept{
+ color: rgb(2, 2, 236);
+ font-weight: bold;
+}
+
+.h1{
+    //background-image: linear-gradient(#6b584c, #91845d, #6b584c);
+    color: #91845d;
+    //font-family: 'Emilys Candy', cursive;
+    font-size: 35px;
+}
+
+.container{
+  padding: 30px;
+    margin-top: -8px;
+}

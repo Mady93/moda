@@ -7,6 +7,7 @@
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
@@ -14,21 +15,40 @@
             <fa-icon [icon]="iconaHome"></fa-icon>Home
           </a>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" routerLink="abbigliamento">
             <fa-icon [icon]="iconaAbbigliamento"></fa-icon>Abbigliamento
           </a>
-        </li>
         <li class="nav-item">
           <a class="nav-link" >
             <fa-icon [icon]="iconaMail"></fa-icon>Contatti
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#">
+          <a class="nav-link " routerLink="registrati">
             <fa-icon [icon]="iconaRegistered"></fa-icon>Registrati
           </a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link " routerLink="">
+            <fa-icon [icon]="iconaCategoria"></fa-icon>Scarpe
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " routerLink="">
+            <fa-icon [icon]="iconaCategoria"></fa-icon>Camicia
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " routerLink="">
+            <fa-icon [icon]="iconaCategoria"></fa-icon>Pantalona
+          </a>
+        </li>
+
         <li>
           <form class="form-inline my-2 my-lg-0">
             <input class=" search" type="search" placeholder="Search" aria-label="Ricerca">
@@ -39,6 +59,5 @@
         </li>
       </ul>
     </div>
-
   </nav>
 </header>

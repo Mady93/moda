@@ -14,6 +14,13 @@ import { DressCardComponent } from './shared/dress-card/dress-card.component';
 import { DetailComponent } from './components/dresses/detail/detail.component';
 import { DressesListComponent } from './components/dresses/dresses-list/dresses-list.component';
 import { CipComponent } from './shared/cip/cip.component';
+import { RegistratiComponent } from './user/registrati/registrati.component';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import{PasswordModule} from "primeng/password";
+import{DividerModule} from "primeng/divider";
+import{BrowserAnimationsModule} from "@angular/platform-browser/animations";
+
+
 
 
 @NgModule({
@@ -28,13 +35,19 @@ import { CipComponent } from './shared/cip/cip.component';
     DressCardComponent,
     DetailComponent,
     DressesListComponent,
-    CipComponent
+    CipComponent,
+    RegistratiComponent
     ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    NgbModule
+    NgbModule,
+    FormsModule,
+    ReactiveFormsModule,
+    DividerModule,
+    PasswordModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

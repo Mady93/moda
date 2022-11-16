@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faHand } from '@fortawesome/free-regular-svg-icons';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faChain, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faHouzz } from '@fortawesome/free-brands-svg-icons';
 import{ faCircleUser } from '@fortawesome/free-regular-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
@@ -16,10 +16,13 @@ export class HeaderComponent implements OnInit {
   iconaMail = faPhone;
   iconaRegistered = faCircleUser;
   iconaRicerca = faSearch;
+  iconaCategoria = faChain;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-}
+
+  }
+

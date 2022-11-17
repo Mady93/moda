@@ -1,47 +1,47 @@
-nav{
+nav {
   border-radius: 0 0 50px 50px;
 }
 
-.logo{
-  width:60px;
+.logo {
+  width: 60px;
   font-size: 30px;
   border-radius: 10%;
-  margin-left: 20px;
-  //display:block;
+  margin-left: 15px;
+    //display:block;
   float: right;
- // position: relative;
+  // position: relative;
   //top: 4px;
 }
 
-.digital_fashion{
+.digital_fashion {
   font-size: 25px;
   margin-left: 20px;
   //font-family: 'Monsieur La Doulaise', cursive!important;
-  font-family: 'Pinyon Script', cursive!important;
-  color:  rgb(255, 255, 255);
+  font-family: 'Pinyon Script', cursive !important;
+  color: rgb(255, 255, 255);
   vertical-align: sub;
   //font-weight: bold;
 }
 
-a{
-    font-size: 15px;
-    word-spacing: 2px; //spazio caratteri
+a {
+  font-size: 15px;
+  word-spacing: 2px; //spazio caratteri
 
 }
 
-fa-icon{
+fa-icon {
   font-size: 21px;
   margin-right: 5px;
-  color: #2d2621!important;
+  color: #2d2621 !important;
 }
 
-.bg-dark{
+.bg-dark {
   //background-color: #6b584c!important;
   border-top: 2px solid #707065;
   background-image: linear-gradient(#6b584c, #91845d, #6b584c);
 }
 
-.navbar-brand{
+.navbar-brand {
   display: block;
   float: right;
   //margin-top: 25px;
@@ -50,44 +50,63 @@ fa-icon{
   margin-right: 30px;
 }
 
-button.btn.btn-outline-success{
-  //margin-right: 30px;
-  display:block;
-  float: right;
+button.btn.btn-outline-success {
+  // //margin-right: 30px;
+  // display:block;
+  // float: right;
+  // position: relative;
+  // //top: 4px;
+  // top:3px;
+  // height: 40px;
+  // border-color:white ;
+  display: block;
   position: relative;
-  //top: 4px;
-  top:3px;
+  top: -38px;
   height: 40px;
-  border-color:white ;
+  border-color: white;
+  margin-left: 226%;
 
-  .icon{
-    color: rgb(255, 255, 255)!important;
+
+  .icon {
+    color: rgb(255, 255, 255) !important;
   }
 }
 
-  button.btn.btn-outline-success:hover{
-    background-color:   rgb(255, 255, 255);
-    .icon{
-      color: #2d2621!important;
-    }
-  }
+button.btn.btn-outline-success:hover {
+  background-color: rgb(255, 255, 255);
 
-input.search{
-margin-right: 10px;
-height: 36px;
-margin-top: 5px;
-padding-left: 8px;
-border: 0px;
-border-radius: 3px;
-margin-left: 550px;
+  .icon {
+    color: #2d2621 !important;
+  }
 }
 
-a{
+input.search {
+  // margin-right: 10px;
+  // height: 36px;
+  // margin-top: 5px;
+  // padding-left: 8px;
+  // border: 0px;
+  // border-radius: 3px;
+  // margin-left: 550px;
+  margin-right: 10px;
+  height: 36px;
+  margin-top: 5px;
+  padding-left: 8px;
+  border: 0px;
+  border-radius: 3px;
+  margin-left: 128%;
+
+}
+
+a {
   font-family: 'Emilys Candy', cursive;
-      font-size: 17px;
-    //font-weight: bold!important;
-    color:rgb(255, 255, 255);
-    font-weight: lighter!important;
+  font-size: 17px;
+  //font-weight: bold!important;
+  color: rgb(255, 255, 255);
+  font-weight: lighter !important;
 }
 
+ul.navbar-nav {
+  margin-top: 1%;
+}
 

@@ -16,10 +16,12 @@
           </a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" routerLink="abbigliamento">
+         <li class="nav-item">
+          <a class="nav-link" (click)="navigate(null)">
             <fa-icon [icon]="iconaAbbigliamento"></fa-icon>Abbigliamento
           </a>
+</li>
+
         <li class="nav-item">
           <a class="nav-link" >
             <fa-icon [icon]="iconaMail"></fa-icon>Contatti
@@ -31,23 +33,13 @@
           </a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link " routerLink="">
-            <fa-icon [icon]="iconaCategoria"></fa-icon>Scarpe
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link " routerLink="">
-            <fa-icon [icon]="iconaCategoria"></fa-icon>Camicia
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link " routerLink="">
-            <fa-icon [icon]="iconaCategoria"></fa-icon>Pantalona
-          </a>
-        </li>
+        <ng-container class="ng-container" *ngIf="categoryNameList">
+          <li class="nav-item" *ngFor="let category of categoryNameList">
+            <a class="nav-link" (click)="navigate(category)">
+              <fa-icon [icon]="iconaFilter"></fa-icon>{{category}}
+            </a>
+          </li>
+        </ng-container>
 
         <li>
           <form class="form-inline my-2 my-lg-0">

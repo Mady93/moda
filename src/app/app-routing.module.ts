@@ -4,7 +4,7 @@ import { HomeComponent } from './components/home/home.component';
 import { DetailComponent } from './components/dresses/detail/detail.component';
 import { DressesListComponent } from './components/dresses/dresses-list/dresses-list.component';
 import { RegistratiComponent } from './user/registrati/registrati.component';
-
+import { SearchComponent } from './search/search/search.component';
 
 
 const routes: Routes = [
@@ -12,7 +12,7 @@ const routes: Routes = [
   {path: 'home',component: HomeComponent},
    {path: 'abbigliamento/:category',component: DressesListComponent},
    {path: 'abbigliamento/dettaglio/:title/:_id', component: DetailComponent},
-
+   {path: 'search',component:SearchComponent},
 
   //{path: '**',nomeComponente404}
 

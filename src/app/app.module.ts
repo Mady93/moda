@@ -19,6 +19,7 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import{PasswordModule} from "primeng/password";
 import{DividerModule} from "primeng/divider";
 import{BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { SearchComponent } from './search/search/search.component';
 
 
 
@@ -36,7 +37,8 @@ import{BrowserAnimationsModule} from "@angular/platform-browser/animations";
     DetailComponent,
     DressesListComponent,
     CipComponent,
-    RegistratiComponent
+    RegistratiComponent,
+    SearchComponent
     ],
   imports: [
     BrowserModule,

@@ -46,9 +46,9 @@ export class DetailComponent implements OnInit {
   onGetDress2():void{
     this.activatedRoute.params.subscribe((urlParams)=>{
       const ID = urlParams['_id'];
-      const idN = Number(ID);
-      if(idN){
-      this.dressService.getDress(idN).subscribe(res => this.vestito = res);
+      // const idN = Number(ID);
+      if(ID){
+      this.dressService.getDress(ID).subscribe(res => this.vestito = res);
   }
 });
   }

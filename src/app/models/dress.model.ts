@@ -4,11 +4,10 @@ export interface Dress{
   description: string;
   image: string;
   images:string[],
-  date: string;
   category: string;
   color:string;
   size: string;
-  price: string;
+  price: number;
   qualita:number;
   published: boolean;
   }

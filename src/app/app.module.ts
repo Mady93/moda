@@ -20,7 +20,7 @@ import{PasswordModule} from "primeng/password";
 import{DividerModule} from "primeng/divider";
 import{BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { SearchComponent } from './search/search/search.component';
-
+import{HttpClientModule} from '@angular/common/http';
 
 
 
@@ -49,7 +49,8 @@ import { SearchComponent } from './search/search/search.component';
     ReactiveFormsModule,
     DividerModule,
     PasswordModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
